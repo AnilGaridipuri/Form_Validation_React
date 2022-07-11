@@ -1,0 +1,101 @@
+.Userdetails{
+    text-align: center;
+    margin:auto;
+}
+.css-1p823my-MuiListItem-root{
+    text-align: center!important;
+    display: flex!important;
+}
+input {
+    width: 250px;
+}
+.Box{
+    padding: 20px;    justify-content: center;
+    height: 100%;
+    width: 35%;
+    margin-top: 50px;
+    box-shadow: 2px 1px 5px 2px rgb(8, 41, 94);;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: auto; */
+}
+
+.css-m5vj9m-MuiStepper-root {
+    padding: 20px!important;
+}
+.css-16ubnlw-MuiStepLabel-labelContainer{
+    padding-left: 3px!important;
+    color: rgb(159, 159, 159)!important;
+}
+.css-qivjh0-MuiStepLabel-label.Mui-active{
+    color: white!important;
+}
+.css-qivjh0-MuiStepLabel-label.Mui-completed{
+    color: white!important;
+}
+
+.Button{
+    color: rgb(8, 41, 94);
+}
+
+
+
+@media (max-width: 580px){
+    .Box{
+        padding: 20px;    justify-content: center;
+        height: 100%;
+        width: 85%;
+        margin-top: 50px;
+        box-shadow: 1px 1px 2px 1px rgb(8, 41, 94);;
+        border-radius: 15px;
+        margin-left: 10px!important;
+        margin-right: 10px!important;
+        /* margin: auto; */
+    }
+    input {
+        width: 100%!important;
+    }
+    .css-m5vj9m-MuiStepper-root {
+        display:inline!important;
+        /* text-align: center; */
+    }
+    .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed{
+        padding-left: 100px!important;
+    }
+
+    .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active{
+        padding-left: 100px!important;
+    }
+    .css-ascpo7-MuiStepLabel-root.Mui-disabled{
+        padding-left: 100px!important;
+    }
+}
+
+
+.userpersonaldetalis{
+    display: flex;
+    text-align: center;
+}
+.p-3{
+    padding: 20px;
+}
+.overview .css-h4y409-MuiList-root{
+    display: flex!important;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: baseline;
+
+}
+.overview-botom .css-h4y409-MuiList-root{
+    display:flex!important;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.Stepper{
+    background-color: rgb(8, 41, 94);
+}
