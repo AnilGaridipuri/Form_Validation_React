@@ -4,7 +4,6 @@ import List from '@mui/material/List';
 import Button from '@mui/material/Button';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
-
 export class Confirm extends Component {
   continue = e => {
     e.preventDefault();
@@ -94,10 +93,10 @@ export class Confirm extends Component {
         </div>      
         <br />  <br />  <br />  <br />
           <Button
-            color="info"
+            color="primary"
             variant="contained"
             onClick={this.back}
-          >Edit</Button>
+          >Back</Button>
           &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;
           <Button
             color="primary"

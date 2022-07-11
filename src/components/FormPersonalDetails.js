@@ -86,6 +86,7 @@ export class FormPersonalDetails extends Component {
               <FormControlLabel value="other" control={<Radio />} label="Other" />
             </RadioGroup>
           </FormControl>
+
           <br />  <br />  <br />  <br />
           <Button
             color="primary"

@@ -3,7 +3,9 @@ import { Button } from '@mui/material';
 import { ValidatorForm, TextValidator } from 'react-material-ui-form-validator';
 
 export class FormUserDetails extends Component {
-  
+
+     
+
     continue = e => {
       e.preventDefault();
       this.form.isFormValid(false).then((isValid) => {
@@ -28,7 +30,7 @@ export class FormUserDetails extends Component {
             Enter your Emali and Password
         </h4>
             <TextValidator
-              id="standard-basic"
+              id="standard-basic1"
               label="Email"
               type='email'
               variant="outlined"

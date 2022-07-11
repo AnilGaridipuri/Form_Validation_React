@@ -4,11 +4,13 @@ import Confirm from './Confirm';
 import FormUserCollage from './FormUserCollage';
 import FormUserDetails from './FormUserDetails';
 import FormUserAdders from './FormUserAdders'
-import Success from './Success';
 import Stepper from '@mui/material/Stepper';
 import Step from '@mui/material/Step';
 import StepLabel from '@mui/material/StepLabel';
-const steps = ['Personal Details', 'Collage Information', 'Adderss','Login','Overview','Success'];
+import Success from './Success';
+import './FormUserDetails.css';
+
+const steps = ['Personal Details', 'Adderss', 'Collage Information','Login','Overview','Success'];
 
 export class UserForm extends Component {
 
@@ -76,7 +78,6 @@ export class UserForm extends Component {
       district, 
       pin, 
       activeStep } = this.state;
-
     const values = { firstName, 
       lastName,
       age,
@@ -91,21 +92,20 @@ export class UserForm extends Component {
       district, 
       pin, 
       activeStep };
-
     const Header = (props) =>{
       return( 
-      <div className='Stepper'>
-        <Stepper activeStep={step}>
-        {steps.map((label, index) => {
-          const stepProps = {};
-          const labelProps = {}; 
-          return (
-            <Step key={label} {...stepProps}>
-              <StepLabel {...labelProps}>{label}</StepLabel>
-            </Step>
-          );
-        })}
-        </Stepper>
+      <div className='Stepper '>
+      <Stepper activeStep={step}>
+      {steps.map((label, index) => {
+        const stepProps = {};
+        const labelProps = {}; 
+        return (
+          <Step key={label} {...stepProps}>
+            <StepLabel {...labelProps}>{label}</StepLabel>
+          </Step>
+        );
+      })}
+      </Stepper>
       </div>
       )
     }

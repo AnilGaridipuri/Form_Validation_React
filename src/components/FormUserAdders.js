@@ -3,7 +3,6 @@ import './FormUserDetails.css';
 import { Button } from '@mui/material';
 import { ValidatorForm, TextValidator } from 'react-material-ui-form-validator';
 
-
 export class FormUserAdders extends Component {
 
 
